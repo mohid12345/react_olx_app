@@ -4,13 +4,13 @@ import 'firebase/firebase';
 import 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCBq4Y1VagM_I9AQzkAPVd516loqfJ66zc",
-  authDomain: "fir-b7eef.firebaseapp.com",
-  projectId: "fir-b7eef",
-  storageBucket: "fir-b7eef.appspot.com",
-  messagingSenderId: "167344073619",
-  appId: "1:167344073619:web:8e16049a01560016361666",
-  measurementId: "G-BBGWKM5WRL"
+  apiKey: "AIzaSyDNy1Wgmo8yqgZZrjm_G1HNK_n8nVLNH78",
+  authDomain: "fir-a18aa.firebaseapp.com",
+  projectId: "fir-a18aa",
+  storageBucket: "fir-a18aa.appspot.com",
+  messagingSenderId: "565309410628",
+  appId: "1:565309410628:web:3ab5324ec92a5478871b11",
+  measurementId: "G-VXZWK0FB3D"
 };
 
 export default firebase.initializeApp(firebaseConfig);

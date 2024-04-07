@@ -23,7 +23,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />// because react does partial matching by default
           <Route path="/signup" element={<Signup/>}></Route>
           <Route path="/Login" element={<Login/>}></Route>
           <Route path="/Create" element={<Create/>}></Route>

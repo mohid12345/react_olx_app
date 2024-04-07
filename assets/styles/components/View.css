@@ -1,5 +1,5 @@
 .viewParentDiv {
-  padding-top: 10em;
+  padding-top: 4em;
   display: flex;
 }
 .viewParentDiv .imageShowDiv {
@@ -7,15 +7,14 @@
   width: 70vw;
 }
 .viewParentDiv .imageShowDiv img {
-  width: 35vw;
-  height: 55vh;
+  width: 65vw;
+  height: 85vh;
 }
 
 .viewParentDiv .rightSection {
   padding: 16px;
   margin-top: 3em;
   width: 30vw;
-  margin-right: 30px;
 }
 
 .viewParentDiv .rightSection .productDetails :first-child {

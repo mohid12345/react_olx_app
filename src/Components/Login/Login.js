@@ -36,8 +36,10 @@ function Login() {
   }
   return (
     <div>
+      {/* <button>x</button> */}
       <div className="loginParentDiv">
-        <img width="200px" height="200px" src={Logo}></img>
+        <a href='/' style={{ position: 'absolute', top: '0', left: '0', padding: '5px' }}>x</a>
+        <img width="300px" height="300px" src={Logo}></img>
         { loading ? (
           <ScaleLoader
           size={150}

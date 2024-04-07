@@ -70,7 +70,7 @@ export default function Signup() {
   return (
     <div>
       <div className="signupParentDiv">
-        <img width="200px" height="200px" src={Logo}></img>
+        <img alt='Logo' width="200px" height="200px" src={Logo}></img>
         { loading ? (
           <ScaleLoader
           size={150}
@@ -131,7 +131,7 @@ export default function Signup() {
           <button>Signup</button>
         </form> 
         )}
-        <a onClick={()=>Navigate('/Login')}>Login</a>
+        <a href='#' onClick={()=>Navigate('/Login')}>Login</a>
       </div>
     </div>
   );
